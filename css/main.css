@@ -1,0 +1,34 @@
+.example-image {
+  max-width: 30rem;
+}
+.example-image-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 90vw;
+  gap: 1rem;
+  margin-top: 1rem;
+  justify-content: center;
+}
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.link-container {
+  display: flex;
+  gap: 1rem;
+}
+h1 {
+  font-family: "Tektur", sans-serif;
+  font-size: 4rem;
+  color: darkred;
+}
+body {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5rem;
+  background-color: lightgrey;
+}
+a:hover {
+  color: red;
+  font-size: 1.7rem;
+}
